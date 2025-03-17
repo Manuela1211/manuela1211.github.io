@@ -1,0 +1,59 @@
+<html>
+    <head>
+    <title>Dragon Ball - Z</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+
+        <nomepersonagem></nomepersonagem>
+            <h1 id="nomepersonagem">...</h1>
+
+        <img src="" id="imgPersonagem">
+
+        <h1 id ="idPersonagem"></h1>
+        <h2 id = "afiliacaoPersonagem"></h2>
+    
+
+
+<script>
+    async function dragonBall() {
+  const url = "https://dragonball-api.com/api/characters/"+ document.getElementById('id').value;
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const json = await response.json();
+    console.log(json);
+    console.log(json.name);
+    console.log(json.image);
+    console.log(json.id);
+    console.log(json.affiliation);
+
+
+    document.getElementById("nomepersonagem").innerText = json.name;
+    document.getElementById("imgPersonagem").src = json.image;
+    document.getElementById("idPersonagem").innerText = json.id;
+    document.getElementById("afiliacaoPersonagem").innerText = json.affiliation;
+
+ 
+  } catch (error) {
+    console.error(error.message);
+  }
+}
+
+dragonBall();
+</script>
+
+</head>
+
+<body>
+<!-- Inicio do formulario -->
+<form method="get" action=".">
+    <label>Buscador de Personagem:
+        <input onblur="  dragonBall()" id="id" type="text" id="id" value="" size="20" maxlength="20"/></label><br />
+
+</form>
+</body>
+
+</html>
