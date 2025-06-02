@@ -1,0 +1,63 @@
+{
+    "titulo": "Cardápio Tia Van",
+    "categorias": [
+      {
+        "nome": "Salgados",
+        "imagem": "https://via.placeholder.com/128",
+        "itens": [
+          {
+            "nome": "Coxinha",
+            "descricao": "Frango desfiado temperado, massa cozida, empanada e frita.",
+            "preco": 8.00,
+            "imagem": "https://via.placeholder.com/96"
+          }
+        ]
+      },
+      {
+        "nome": "Doces",
+        "imagem": "https://via.placeholder.com/128",
+        "itens": [
+          {
+            "nome": "Cone",
+            "descricao": "Brigadeiro, Beijinho, Nutella com morango, Doce de leite com coco e Oreo com creme de leite Ninho.",
+            "preco": 10.00,
+            "imagem": "https://via.placeholder.com/96"
+          }
+        ]
+      },
+      {
+        "nome": "Bolos",
+        "imagem": "https://via.placeholder.com/128",
+        "itens": [
+          {
+            "nome": "Cenoura com chocolate",
+            "descricao": "Bolo de Cenoura com cobertura de chocolate",
+            "preco": 6.00,
+            "imagem": "https://via.placeholder.com/96"
+          },
+          {
+            "nome": "Delícia de Leite com Morango",
+            "descricao": "Bolo de massa branca com Leite em Pó e Morango",
+            "preco": 8.00,
+            "imagem": "https://via.placeholder.com/96"
+          }
+        ]
+      },
+      {
+        "nome": "Lanches",
+        "imagem": "https://via.placeholder.com/128",
+        "itens": []
+      },
+      {
+        "nome": "Bebidas",
+        "imagem": "https://via.placeholder.com/128",
+        "itens": []
+      },
+      {
+        "nome": "Pizzas",
+        "imagem": "https://via.placeholder.com/128",
+        "itens": []
+      }
+    ]
+  }
+  
