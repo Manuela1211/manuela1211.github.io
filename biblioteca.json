@@ -10,7 +10,9 @@
           { "titulo": "Anna Karenina", "autor": "Leon Tolstói", "ano": 1877 },
           { "titulo": "A Menina que Roubava Livros", "autor": "Markus Zusak", "ano": 2005 },
           { "titulo": "P.S. Eu Te Amo", "autor": "Cecelia Ahern", "ano": 2004 },
-          { "titulo": "Como Eu Era Antes de Você", "autor": "Jojo Moyes", "ano": 2012 }
+          { "titulo": "Como Eu Era Antes de Você", "autor": "Jojo Moyes", "ano": 2012 },
+          { "titulo": "Daisy Jones & The Six", "autor": "Taylor Jenkins Reid", "ano": 2019 }
+       
         ]
       },
       {
