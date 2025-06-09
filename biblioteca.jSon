@@ -1,0 +1,53 @@
+{
+    "categorias": [
+      {
+        "nome": "Romance",
+        "livros": [
+          { "titulo": "Orgulho e Preconceito", "autor": "Jane Austen", "ano": 1813 },
+          { "titulo": "Dom Casmurro", "autor": "Machado de Assis", "ano": 1899 },
+          { "titulo": "O Morro dos Ventos Uivantes", "autor": "Emily Brontë", "ano": 1847 },
+          { "titulo": "Jane Eyre", "autor": "Charlotte Brontë", "ano": 1847 },
+          { "titulo": "Anna Karenina", "autor": "Leon Tolstói", "ano": 1877 },
+          { "titulo": "A Menina que Roubava Livros", "autor": "Markus Zusak", "ano": 2005 },
+          { "titulo": "P.S. Eu Te Amo", "autor": "Cecelia Ahern", "ano": 2004 },
+          { "titulo": "Como Eu Era Antes de Você", "autor": "Jojo Moyes", "ano": 2012 }
+        ]
+      },
+      {
+        "nome": "Ficção Científica",
+        "livros": [
+          { "titulo": "Duna", "autor": "Frank Herbert", "ano": 1965 },
+          { "titulo": "Neuromancer", "autor": "William Gibson", "ano": 1984 },
+          { "titulo": "Fundação", "autor": "Isaac Asimov", "ano": 1951 },
+          { "titulo": "2001: Uma Odisseia no Espaço", "autor": "Arthur C. Clarke", "ano": 1968 },
+          { "titulo": "Admirável Mundo Novo", "autor": "Aldous Huxley", "ano": 1932 },
+          { "titulo": "Eu, Robô", "autor": "Isaac Asimov", "ano": 1950 },
+          { "titulo": "Fahrenheit 451", "autor": "Ray Bradbury", "ano": 1953 },
+          { "titulo": "O Jogo do Exterminador", "autor": "Orson Scott Card", "ano": 1985 }
+        ]
+      },
+      {
+        "nome": "Biografias",
+        "livros": [
+          { "titulo": "Steve Jobs", "autor": "Walter Isaacson", "ano": 2011 },
+          { "titulo": "Minha História", "autor": "Michelle Obama", "ano": 2018 },
+          { "titulo": "Longa Caminhada até a Liberdade", "autor": "Nelson Mandela", "ano": 1994 },
+          { "titulo": "Leonardo da Vinci", "autor": "Walter Isaacson", "ano": 2017 },
+          { "titulo": "O Diário de Anne Frank", "autor": "Anne Frank", "ano": 1947 },
+          { "titulo": "Einstein: Sua Vida e Universo", "autor": "Walter Isaacson", "ano": 2007 }
+        ]
+      },
+      {
+        "nome": "História",
+        "livros": [
+          { "titulo": "Sapiens: Uma Breve História da Humanidade", "autor": "Yuval Noah Harari", "ano": 2011 },
+          { "titulo": "Armas, Germes e Aço", "autor": "Jared Diamond", "ano": 1997 },
+          { "titulo": "A História da Riqueza do Homem", "autor": "Leo Huberman", "ano": 1936 },
+          { "titulo": "O Povo Brasileiro", "autor": "Darcy Ribeiro", "ano": 1995 },
+          { "titulo": "História do Brasil", "autor": "Boris Fausto", "ano": 1994 },
+          { "titulo": "1499: O Brasil Antes de Cabral", "autor": "Reinaldo José Lopes", "ano": 2017 }
+        ]
+      }
+    ]
+  }
+  
